@@ -29,7 +29,7 @@ function cecho {
   fi
 }
 
-githubreleaselabel="$(wget --max-redirect=0 https://github.com/usnistgov/iheos-toolkit2/releases/latest 2>&1 | egrep 'Location:' | cut -b 69-73)"
+githubreleaselabel="$(wget --max-redirect=0 https://github.com/usnistgov/iheos-toolkit2/releases/latest 2>&1 | egrep 'Location:' | cut -b 69-74)"
 
 cecho -blue "Building the docker file for xdstools version" 
 cecho -blue $githubreleaselabel

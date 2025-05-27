@@ -13,7 +13,7 @@ XDS Toolkit can then be accessed in the browser: http://localhost:8080/xdstools6
 
 ## Option 2: Build XDS Toolkit from source
 ```
-git clone https://github.com/usnistgov/iheos-toolkit2.git
+git clone https://github.com/sayan801/iheos-toolkit2.git
 (or git pull origin master if already downloaded)
 cd iheos-toolkit2
 mvn clean install -Dbuild.profile.id=Release

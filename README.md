@@ -25,6 +25,12 @@ Note: In iheos-toolkit2/tk-deps/src/main/Release.properties the path to the exte
 
 Then, copy `iheos-toolkit2/xdstools2/target/xdstools2-*.war` to this folder as `xdstools6.war`.
 
+then run docker file
+
+docker run --rm -it -p 8080:8080 -p 8888:8888 -p 8443:8443 -v $PWD/cache:/your/external/cache/location xdstools
+
+### replace *:/your/external/cache/location* with your local machine cache folder path
+
 
 ## Option 3: Build & run XDS Toolkit in a docker container
 
